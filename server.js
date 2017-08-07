@@ -7,27 +7,27 @@ app.use(morgan('combined'));
 
 var articles = { 
         'article-one' : {
-        title: 'Article One | Chetan Agarwal',
-        heading: 'Article One',
-        date: 'Jun 1, 2017',
-        content: `<p>This is the content of first article.This is the content of first article.This is the content of first article.
-              </p>
-              <p>This is the content of first article.This is the content of first article.This is the content of first article.
-              </p>
-              <p>This is the content of first article.This is the content of first article.This is the content of first article.
-              </p>`
+            title: 'Article One | Chetan Agarwal',
+            heading: 'Article One',
+            date: 'Jun 1, 2017',
+            content: `<p>This is the content of first article.This is the content of first article.This is the content of first article.
+                      </p>
+                      <p>This is the content of first article.This is the content of first article.This is the content of first article.
+                      </p>
+                      <p>This is the content of first article.This is the content of first article.This is the content of first article.
+                      </p>`
         },
         'article-two' : {
-        title: 'Article Two | Chetan Agarwal',
-        heading: 'Article Two',
-        date: 'Jun 10, 2017',
-        content: '<p>This is the content of second article.</p>'
+            title: 'Article Two | Chetan Agarwal',
+            heading: 'Article Two',
+            date: 'Jun 10, 2017',
+            content: '<p>This is the content of second article.</p>'
         },
         'article-three' : {
-        title: 'Article Three | Chetan Agarwal',
-        heading: 'Article Three',
-        date: 'Jun 15, 2017',
-        content: '<p>This is the content of third article.</p>'
+            title: 'Article Three | Chetan Agarwal',
+            heading: 'Article Three',
+            date: 'Jun 15, 2017',
+            content: '<p>This is the content of third article.</p>'
         }
 };
 
