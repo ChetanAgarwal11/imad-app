@@ -16,9 +16,10 @@ button.onclick = function() {
             span.innerHTML = counter.toString();
         }
     }  
-      
+     //Not done yet
   };
   
-  //render the variable in the correct span 
-  
+  //Make a request 
+  request.open('GET', 'http://chetan86866.imad.hasura-app.io/counter',true);
+  request.send(null);
 };
