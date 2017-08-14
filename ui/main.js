@@ -19,7 +19,7 @@ button.onclick = function() {
      //Not done yet
   };
   
-  //Make a request 
+  //Make a request   
   request.open('GET', 'http://chetan86866.imad.hasura-app.io/counter', true);
   request.send(null);
 };
