@@ -20,8 +20,8 @@ app.use(bodyParser.json());
 app.use(session({
     secret: 'someRandomSecretValue',
     cookie: { maxAge: 1000 * 60 * 60 * 24 * 30},
-    saveUninitialized: true,
-    resave: true
+    resave: true,
+    saveUninitialized: true
 }));
 
 function createTemplate (data) {
